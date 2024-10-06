@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+}
+
+#services, #team {
+    background-color: #f4f4f4;
+}
+
+.service, .team-member {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service h3, .team-member h3 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #9f9898;
+    padding: 20px 0;
+    text-align: center;
+}

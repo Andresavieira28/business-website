@@ -1,0 +1,38 @@
+/* Estilos globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-about {
+  font-family: 'Poppins', sans-serif;
+  background-color: #2f2f4d8f; /* cor de fundo principal */
+  color: #bab195; /* cor do texto principal */
+  line-height: 1.6;
+}
+
+h2 {
+  color: #e8d18e; /* cor para títulos */
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  color: #bab195; /* cor dos parágrafos */
+}
+
+/* Estilos da seção principal */
+.section-about {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-about section {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background-color: #2f2f4d;
+  border-radius: 5px;
+}
